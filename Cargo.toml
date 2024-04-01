@@ -1,0 +1,15 @@
+[package]
+name = "improved_initiative_to_obsidian_statblock"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+env_logger = "0.11.3"
+log = "0.4.21"
+regex = "1.10.4"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.115"
+titlecase = "2.2.1"
